@@ -8,5 +8,4 @@ pandas
 python-dotenv
 langchain-community
 faiss-cpu
-tensorflow
 torch
