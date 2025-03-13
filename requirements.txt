@@ -1,0 +1,12 @@
+gradio
+PyPDF2
+huggingface_hub
+langchain
+transformers
+requests
+pandas
+python-dotenv
+langchain-community
+faiss-cpu
+
+
