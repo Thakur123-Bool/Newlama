@@ -3,11 +3,11 @@ import gradio as gr
 from PyPDF2 import PdfReader
 from huggingface_hub import login
 from dotenv import load_dotenv
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.llms import HuggingFacePipeline
 from transformers import pipeline
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 import logging
